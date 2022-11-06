@@ -15,7 +15,7 @@ export default function App() {
     <NavBar/>
     <div className='pages'>
     <Routes>
-    <Route path='*' element={<NotFound/>}/>
+    <Route path='NotFound' element={<NotFound/>}/>
     <Route path='CounterOne' element={<CounterOne/>}/>
     <Route path='UseCounter' element={<UseCounter/>}/>
     <Route path='ErrorBoundary' element={<ErrorBoundary/>}/>

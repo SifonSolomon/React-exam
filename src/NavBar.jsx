@@ -25,7 +25,7 @@ function NavBar () {
                 <NavLink exact to="./ErrorBoundary" activeClassName="active"  className="nav-links" onClick={handleClick}>ErrorBoundary</NavLink>
                 </li>
                 <li className="nav-item">
-                <NavLink exact to="./ErrorBoundary" activeClassName="active"  className="nav-links" onClick={handleClick}>About</NavLink>
+                <NavLink exact to="./NotFound" activeClassName="active"  className="nav-links" onClick={handleClick}>About</NavLink>
                 </li>
             </ul>
             <div className="nav-icon" onClick={handleClick}>
