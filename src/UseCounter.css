@@ -1,0 +1,15 @@
+.btn {
+    border-radius: 40px;
+    border: 0;
+font-size: 1.2rem;
+font-weight: 400;
+margin: 1rem 2px;
+padding: 2rem 3rem;
+text-transform: uppercase;
+white-space: nowrap;
+}
+
+.btn--primary:hover{
+background: dodgerblue;
+color: white;
+}

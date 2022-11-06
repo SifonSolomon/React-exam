@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #b5fac7;
+}
+
+.pages {
+    color: #316685;
+    text-align: center;
+    font-size: 3.5rem;
+    margin-top: 10%;
+}
+
+@media screen and (max-width: 960px) {
+    .pages{
+        margin-top: 20%;
+    }
+}
